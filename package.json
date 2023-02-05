@@ -1,0 +1,17 @@
+{
+  "name": "historical_encyclopedia",
+  "version": "1.0",
+  "description": "Historical Encyclopedia - الموسوعة التاريخية",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scraper/index.js"
+  },
+  "author": "rn0x",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.1.0",
+    "jsdom": "^21.1.0",
+    "node-fetch": "^3.3.0"
+  }
+}
